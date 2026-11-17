@@ -7,20 +7,20 @@ DESCRIÇÃO DOS EXERCÍCIOS
 
 Este repositório contém a implementação prática do conceito de Fila Circular (FIFO — First In, First Out) em linguagem C, utilizando arrays estáticos, struct e aritmética modular (%) para o reaproveitamento de memória.
 
-- exercicio_1.c: Implementa uma fila circular de números inteiros com menu interativo para inserção, remoção e listagem dos elementos, controlando condições de overflow e underflow.
-- exercicio_2.c: Simula um sistema de fila de atendimento utilizando uma struct (Pessoa, contendo número da senha e nome). Exibe o estado dos ponteiros (inicio, fim e quantidade) e os índices reais do array após cada operação para demonstrar o comportamento circular.
+- exercicio1.c: Implementa uma fila circular de números inteiros com menu interativo para inserção, remoção e listagem dos elementos, controlando condições de overflow e underflow.
+- exercicio2.c: Simula um sistema de fila de atendimento utilizando uma struct (Pessoa, contendo número da senha e nome). Exibe o estado dos ponteiros (inicio, fim e quantidade) e os índices reais do array após cada operação para demonstrar o comportamento circular.
 
 INSTRUÇÕES DE COMPILAÇÃO E EXECUÇÃO
 
 Certifique-se de ter o compilador gcc instalado. No terminal, dentro da pasta do projeto, execute:
 
 Exercício 1:
-gcc exercicio_1.c -o exercicio_1
-./exercicio_1
+gcc exercicio1.c -o exercicio1
+./exercicio1
 
 Exercício 2:
-gcc exercicio_2.c -o exercicio_2
-./exercicio_2
+gcc exercicio2.c -o exercicio2
+./exercicio2
 
 (No Windows, execute exercicio1.exe ou exercicio2.exe)
 
